@@ -1,0 +1,25 @@
+.imgMainDiv {
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgMainDiv::before {
+  content: "";
+
+  position: absolute;
+  top: 0%;
+  left: -30%;
+  background-color: #00b98e;
+
+  width: 80%;
+
+  height: 100%;
+
+  z-index: -1;
+
+  transform: skew(20deg);
+}
