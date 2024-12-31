@@ -15,17 +15,17 @@ const PropertyListing = lazy(() =>
 
 const Home = () => {
   return (
-    <div className="bg-black w-[100%] min-h-[100vh] text-white ">
+    <div className="bg-black w-[100%] min-h-[100vh] text-white mt-[4rem]">
       <div className="w-[100%] min-h-[100vh] lg:flex gap-2 ">
-        <div className="basis-[50%] bg-[#00B98E] ">
+        <div className="basis-[45%] bg-[#00B98E] ">
           <HomeImgSlider />
         </div>
-        <div className="basis-[50%] flex flex-col justify-center items-center bg-black p-6">
-          <h1 className="text-[4rem] font-bold">
+        <div className="basis-[55%] flex flex-col justify-center  bg-black p-6">
+          <h1 className="text-[3rem] font-bold">
             Find A <span className="text-[#00B98E]"> Perfect Home </span> <br />
             To Live With Your <br /> Family
           </h1>
-          <p className="text-white mt-3">
+          <p className="text-white mt-3 text-[0.8rem]">
             Explore premium real estate properties in Lucknow which offers
             modern amenities, spacious layouts and prime locations. Ideal for
             families seeking comfort and convenience, with easy access to
